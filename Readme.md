@@ -6,7 +6,7 @@
 
 # 1장. 확률과 확률분포
 - $\sigma$-field의 정의!
-- Boral $\sigma$-field의 의미?
+- Boral $\sigma$-field의 정의?
     
 # 2장. 다변량 분포
 - 다중적분에서 Jacobian의 직관적 의미?
