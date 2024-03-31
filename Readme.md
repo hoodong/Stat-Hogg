@@ -11,8 +11,9 @@
 # 2장. 다변량 분포
 - 다중적분에서 Jacobian의 직관적 의미?
 - double expectation theorem!
-- Theorem 2.4.1: 조건부 기대값이 선형으로 나타날 때, 조건부 기대값과 분산 결과식의 직관적 의미는? 
+- Theorem 2.4.1: 조건부 기대값이 선형으로 나타날 때, 이 결과들의 직관적 의미는? 
   $E[Y|X]=\mu_2+\rho\frac{\sigma_2}{\sigma_1}(X-\mu_1)$
+  $E[Var(Y|X)]=\sigma^2(1-rho^2)$  
   
 # 3장. 몇 가지 특수한 분포
 - 조합 계산식의 유도과정 
