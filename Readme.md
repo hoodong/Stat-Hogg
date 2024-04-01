@@ -2,7 +2,7 @@
 - 김충락 교수 kocw 수리통계학 강의
   - 수리통계학(I): 1~5장, 2020년 1학기
   - 수리통계학(II): 6~10장, 2020년 2학기 
-- 교재: introduction to mathematical statistics, Hogg, 6e
+- 교재: Introduction to mathematical statistics, Hogg, 6e
 - 김충락 교수 강의노트
   - 교재의 내용이 잘 정리되어 있음
   - 유도 과정이 교재보다 자세함
