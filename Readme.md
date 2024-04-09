@@ -34,7 +34,7 @@
 - Gamma 분포와 다른 분포들(Poisson, Beta)과의 관계를 쉽게 설명하면?
 - Chi-square 분포, t 분포, F 분포에서 각각 자유도의 의미는?
 - 정규분포에서 표본 평균과 표본 분산이 독립이 되는 이유는?
-- $X_1,...,X_n\sim N(\mu,\sigma^2)$에서 얻어지는 통계량
+- 정규 분포 $N(\mu,\sigma^2)$에서 추출한 임의 표본 $X_1,...,X_n$ 에서 얻어지는 통계량
   - 표본 평균 $\bar X=\frac{1}{n}\sum_i X_i$은 정규분포 $N(\mu,\sigma^2/n)$를 따름
   - 표본 분산 $s^2=\frac{1}{n-1}\sigma_i (X_i)^2$은 ?
   - $\frac{(n-1)s^2}{\sigma^2}$은 Chi-square $\chi^2(n-1)$를 따름?
