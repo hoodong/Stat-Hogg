@@ -46,6 +46,7 @@
   - random sample (임의 표본), statistic (통계량)
   - sample mean (표본 평균), sample variance (표본 분산)
 - 기대값과 관련된 수식
+  - $x,y$는 확률 벡터, $A,B$는 상수 행렬
   - $E[Ax]=AE[x]$
   - $\text{Cov}(Ax,Bx)=A\text{Cov}(x,y)B^T$
   
