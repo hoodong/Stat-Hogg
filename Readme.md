@@ -35,9 +35,10 @@
 - Chi-square 분포, t 분포, F 분포에서 각각 자유도의 의미는?
 - 정규분포에서 표본 평균과 표본 분산이 독립이 되는 이유는?
 - $X_1,...,X_n\sim N(\mu,\sigma^2)$에서 얻어지는 통계량
-  - 표본 평균 $\bar X=\frac{1}{n}\sum_i X_i$은 정규분포 $N(\mu,\sigma^2/n)$를 따른다.
+  - 표본 평균 $\bar X=\frac{1}{n}\sum_i X_i$은 정규분포 $N(\mu,\sigma^2/n)$를 따름
   - 표본 분산 $s^2=\frac{1}{n-1}\sigma_i (X_i)^2$은 ?
-  - $\frac{\bar X-\mu}{}$
+  - $\frac{(n-1)s^2}{\sigma^2}$은 Chi-square $\chi^2(n-1)$를 따름?
+  - $\frac{\bar X-\mu}{s/\sqrt{n}}$은 Student t 분포 $t(n-1)$를 따름?
 
   ## 4장. 일치성, 그리고 극한 분포  
   - 
