@@ -41,5 +41,5 @@
   - $\frac{\bar X-\mu}{s/\sqrt{n}}$은 Student t 분포 $t(n-1)$를 따름?
 
 ## 4장. 일치성, 그리고 극한 분포  
-- 
+- $Cov(Ax,Bx)=ACov(x,y)B^T$
   
