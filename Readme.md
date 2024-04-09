@@ -47,5 +47,5 @@
   - sample mean (표본 평균), sample variance (표본 분산)
 - 기대값과 관련된 수식
   - $E[Ax]=AE[x]$
-  - $\Cov(Ax,Bx)=A\Cov(x,y)B^T$
+  - $\text{Cov}(Ax,Bx)=A\Cov(x,y)B^T$
   
