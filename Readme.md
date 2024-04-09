@@ -41,5 +41,11 @@
   - $\frac{\bar X-\mu}{s/\sqrt{n}}$은 Student t 분포 $t(n-1)$를 따름?
 
 ## 4장. 일치성, 그리고 극한 분포  
-- $Cov(Ax,Bx)=ACov(x,y)B^T$
+- 용어 정리
+  - population (모집단), parameter (모수), sample (표본)
+  - random sample (임의 표본), statistic (통계량)
+  - sample mean (표본 평균), sample variance (표본 분산)
+- 기대값과 관련된 수식
+  - $E[Ax]=AE[x]$
+  - $\Cov(Ax,Bx)=A\Cov(x,y)B^T$
   
