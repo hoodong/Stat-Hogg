@@ -40,6 +40,6 @@
   - $\frac{(n-1)s^2}{\sigma^2}$은 Chi-square $\chi^2(n-1)$를 따름?
   - $\frac{\bar X-\mu}{s/\sqrt{n}}$은 Student t 분포 $t(n-1)$를 따름?
 
-  ## 4장. 일치성, 그리고 극한 분포  
-  - 
+## 4장. 일치성, 그리고 극한 분포  
+- 
   
