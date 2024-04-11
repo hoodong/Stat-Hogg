@@ -53,4 +53,5 @@
     $\le P(|X_n-X|\ge \epsilon/2) + P(|Y_n-Y|\ge \epsilon/2)$
 - consistent estimator와 unbiased estimator의 차이점과 좋은 예제?
 - 확률변수의 확률적 수렴과 분포적 수렴의 차이를 쉽게 설명하면?
+- CDF는 왜 right continous 해야 할까?
   
