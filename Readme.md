@@ -48,7 +48,8 @@
 - 기대값과 관련된 수식 ($x,y$는 확률 벡터, $A,B$는 상수 행렬)
   - $E[Ax]=AE[x]$
   - $\text{Cov}(Ax,Bx)=A\text{Cov}(x,y)B^T$
-- 정리 5.1.2 증명
+- 정리 5.1.2 증명?
   - $P(|X_n-X|+|Y_n-Y|\ge\epsilon)$  
-    $\le P(|X_n-X|\ge \epsilon/2) + P(|Y_n-Y|\ge \epsilon/2)$ 
+    $\le P(|X_n-X|\ge \epsilon/2) + P(|Y_n-Y|\ge \epsilon/2)$
+- consistent estimator와 unbiased estimator의 차이점은? 
   
