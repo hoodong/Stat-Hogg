@@ -49,6 +49,6 @@
   - $E[Ax]=AE[x]$
   - $\text{Cov}(Ax,Bx)=A\text{Cov}(x,y)B^T$
 - 정리 5.1.2 증명
-  - $P([|X_n-X|+|Y_n-Y|)\ge\epsilon]  
-    \le P(|X_n-X|\ge \epsilon/2 + P(|Y_n-Y|\ge \epsilon/2$ 
+  - $P([|X_n-X|+|Y_n-Y|)\ge\epsilon]$  
+    $\le P(|X_n-X|\ge \epsilon/2 + P(|Y_n-Y|\ge \epsilon/2$ 
   
