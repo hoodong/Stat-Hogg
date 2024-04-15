@@ -65,7 +65,7 @@
   - 이항분포 $B(1,p)$의 분산 안정화 변환은 arcsin square-root이다. 왜냐하면
     - $\sqrt{n}(\bar{X}-p) \rightarrow N(0,p(1-p))$ by CLT
     - $\sqrt{n}(h(\bar{X})-h(p)) \rightarrow N(0,h'(p)^2p(1-p))$ by $\Delta$ method
-    - $h'(p)^2 p(1-p)=c^2$ 이므로 $h(p)=2c\sin^{-1}(\sqrt{p})$
+    - $h'(p)^2 p(1-p)=c^2$ 가 되려면 $h(p)=2c\sin^{-1}(\sqrt{p})$
   - 포아송 분포 $\mathcal{P}(\lambda)$의 variance stablizing transformation은?
     - $\sqrt{n}(\bar{X}-\lambda) \rightarrow N(0,\lambda)$
     - $\sqrt{n}(h(\bar{X})-h(\lambda)) \rightarrow N(0,h'(\lambda)^2 \lambda)$
