@@ -61,7 +61,7 @@
   - $\sqrt{n} (h(\bar{X})-h(\mu)) \xrightarrow{\mathcal{D}} N(0,h'(\mu)^2 \sigma^2)$ (by $\Delta$ method)
 - variance stablizing transformation?
   - 분산이 unknown parameter에 의존하지 않게 해주는 변환
-  - 이항분포 $B(1,p)$의 분산 안정화 변환은 arcsin square-root이다.
+  - 이항분포 $B(1,p)$의 분산 안정화 변환은 arcsin square-root이다. 왜냐하면
     - $\sqrt{n}(\bar{X}-p) \rightarrow N(0,p(1-p))$
     - $\sqrt{n}(h(\bar{X})-h(p)) \rightarrow N(0,h'(p)^2p(1-p))$
     - $h'(p)^2 p(1-p)=c^2$$ 이므로 $h(p)=2c\sin^{-1}(\sqrt{p})$
