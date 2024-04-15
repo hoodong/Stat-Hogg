@@ -63,8 +63,11 @@
   - 분산이 unknown parameter에 의존하지 않게 해주는 변환
   - 이항분포 $B(1,p)$의 분산 안정화 변환은 arcsin square-root이다.
     - $\sqrt{n}(\bar{X}-p) \rightarrow N(0,p(1-p))$
-    - $\sqrt{n}(h(\bar{X})-h(p)) \rightarrow N(0,c^2)$, where $h(p)=2c\sin^{-1}(\sqrt{p})$
-    - $\Delta$ method에 의해 $h'(p)^2p(1-p)=c^2$을 풀면 구할 수 있음 (미분방정식)!
-  - 포아송 분포의 variance stablizing transformation은?
+    - $\sqrt{n}(h(\bar{X})-h(p)) \rightarrow N(0,h'(p)^2p(1-p))$
+    - $h'(p)^2 p(1-p)=c^2$$ 이므로 $h(p)=2c\sin^{-1}(\sqrt{p})$
+  - 포아송 분포 $\mathcal{P}(\lambda)$의 variance stablizing transformation은?
+    - $\sqrt{n}(\bar{X}-\lambda) \rightarrow N(0,\lambda)$
+    - $\sqrt{n}(h(\bar{X})-h(\lambda)) \rightarrow N(0,h'(\lambda)^2 \lambda)$
+    - $h'(\lambda)^2 \lambda$ 이므로 $h(\lambda)=2c\sqrt{\lambda}$
     
   
