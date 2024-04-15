@@ -61,7 +61,9 @@
   - $\sqrt{n} (g(\bar{X})-g(\mu)) \xrightarrow{\mathcal{D}} N(0,g^{'}(\mu)^2 \sigma^2)$ (by $\Delta$ method)
 - variance stablizing transformation?
   - 분산이 unknown parameter에 의존하지 않게 해주는 변환
-  - 이항분포 $B(1,p)$의 분산 안정화 변환은 $\sin^{-1}(\sqrt{\cdot})$ 이다.
+  - 이항분포 $B(1,p)$의 분산 안정화 변환은 arcsin square-root이다.
+    - $\sqrt{n}(\bar{X}-p)$ \rightarrow N(0,p(1-p))$
+    - $\sqrt{n}(h(\bar{X})-h(p))$ \rightarrow N(0,c^2)$, where $h(p)=2c\sin^{-1}(\sqrt{p})$
   - 포아송 분포 $$
     
   
