@@ -58,7 +58,7 @@
 - CDF는 왜 right continous 할까?
 - central limit theorem
   - $\sqrt{n} (\bar{X}-\mu) \xrightarrow{\mathcal{D}} N(0,\sigma^2)$
-  - $\sqrt{n} (g(\bar{X})-g(\mu)) \xrightarrow{\mathcal{D}} N(0,g^{'}(\mu)^2 \sigma^2)$ (by $\Delta$ method)
+  - $\sqrt{n} (h(\bar{X})-h(\mu)) \xrightarrow{\mathcal{D}} N(0,h'(\mu)^2 \sigma^2)$ (by $\Delta$ method)
 - variance stablizing transformation?
   - 분산이 unknown parameter에 의존하지 않게 해주는 변환
   - 이항분포 $B(1,p)$의 분산 안정화 변환은 arcsin square-root이다.
