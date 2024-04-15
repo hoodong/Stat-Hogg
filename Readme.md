@@ -57,6 +57,7 @@
   - 확률적 수렴 $\rightarrow$ 분포적 수렴
 - CDF는 왜 right continous 할까?
 - central limit theorem
+  - random samples의 표본평균은 정규분포에 수렴한다.
   - $\sqrt{n} (\bar{X}-\mu) \xrightarrow{\mathcal{D}} N(0,\sigma^2)$
   - $\sqrt{n} (h(\bar{X})-h(\mu)) \xrightarrow{\mathcal{D}} N(0,h'(\mu)^2 \sigma^2)$ (by $\Delta$ method)
 - variance stablizing transformation?
