@@ -82,11 +82,16 @@
   - 비복원 추출 sampling without replacement
 - 순서 통계량 order statistics
   - Y는 X의 순서통계량: $Y_i=X_{(i)}, \quad Y_1 < Y_2 < ... < Y_n$   
-  - jpdf of Y
-    - X-to-Y 변환은 1-1이고 n! 가지수 $(X_1,...,X_n)\rightarrow (Y_1,...,Y_n)$
-    - X-to-Y 변환은 permutation 행렬 $\Pi_{ij}$로 나타낼 수 있다.
-    - $\Pi_{ij}$는 단위행렬의 $i$번째와 $j$번째 행을 바꾼 것이다.
-    - X-to-Y 변환은 permutation 행렬들의 곱이므로 Jacobian은 $\pm1$이다.
-    - X가 random sample이므로 X의 jpdf는 $f(x_1)f(x_2)...f(x_n)$
-    - 따라서 $g(y_1,...,y_n)=n!\prod\limits_{i=1}^{n}f(y_i)$ (n!이 들어가는 이유?)
+- 순서통계량의 jpdf
+  - X-to-Y 변환은 1-1이고 n! 가지수 $(X_1,...,X_n)\rightarrow (Y_1,...,Y_n)$
+  - X-to-Y 변환은 permutation 행렬 $\Pi_{ij}$로 나타낼 수 있다.
+  - $\Pi_{ij}$는 단위행렬의 $i$번째와 $j$번째 행을 바꾼 것이다.
+  - X-to-Y 변환은 permutation 행렬들의 곱이므로 Jacobian은 $\pm1$이다.
+  - X가 random sample이므로 X의 jpdf는 $f(x_1)f(x_2)...f(x_n)$
+  - 따라서 Y의 jpdf는 $g(y_1,...,y_n)=n!\prod\limits_{i=1}^{n}f(y_i)$ (n!이 들어가는 이유?)
+- 순서통계량의 marginal pdf
+  - jpdf에서 직접 구하기는 어려움 (n-1번의 적분이 필요)?
+  - $Y_k$보다 $n-k$개가 크고 $k-1$개가 작으므로 가지수는 $\frac{n!}{(k-1)!(n-k)!$
+  - $P(Y>y_k)=1-F(y_k), P(Y<y_k)=F(y_k), P(Y=y_k)=f(y_k)$ 이므로 각 경우의 확률은 $[F(y_k)]^{k-1} f(y_k) [1-F(y_k)]^{n-k}$
+    
   
