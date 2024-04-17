@@ -70,5 +70,11 @@
     - $\sqrt{n}(\bar{X}-\lambda) \rightarrow N(0,\lambda)$
     - $\sqrt{n}(h(\bar{X})-h(\lambda)) \rightarrow N(0,h'(\lambda)^2 \lambda)$
     - $h'(\lambda)^2 \lambda$ 이므로 $h(\lambda)=2c\sqrt{\lambda}$
-    
+
+## 5장. 기초적인 통계적 추론
+- 추론 inference
+  - 추정 estimation
+    - 점 추정 point estimation
+    - 구간 추정 interval estimation
+  - 검정 testing
   
