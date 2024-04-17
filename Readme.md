@@ -81,7 +81,10 @@
   - 복원 추출 sampling with replacement
   - 비복원 추출 sampling without replacement
 - 순서 통계량 order statistics
-  - Y는 X의 순서통계량: $Y_i=X_{(i)}, \quad Y_1 < Y_2 < ... < Y_n$ 
-  - 
+  - Y는 X의 순서통계량: $Y_i=X_{(i)}, \quad Y_1 < Y_2 < ... < Y_n$   
   - joint pdf
+    - X-to-Y 변환은 1-1이고 n! 가지수 $(X_1,...,X_n)\rightarrow (Y_1,...,Y_n)$
+    - X-to-Y 변환은 permutation 행렬 $\Pi_{ij}$로 나타낼 수 있다.
+    - $\Pi_{ij}$는 단위행렬의 $i$번째와 $j$번째 행을 바꾼 것이다.
+    - X-to-Y 변환은 permutation 행렬들의 곱이므로 Jacobian은 1이다.
   
