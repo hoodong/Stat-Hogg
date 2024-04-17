@@ -77,4 +77,10 @@
     - 점 추정 point estimation
     - 구간 추정 interval estimation
   - 검정 testing
+- 추출 sampling
+  - 복원 추출 sampling with replacement
+  - 비복원 추출 sampling without replacement
+- 순서 통계량 order statistics
+  - 정의: $Y_i=X_{(i)}, Y_1<Y_2<...<Y_n$ 
+  - joint pdf
   
