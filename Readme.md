@@ -87,5 +87,6 @@
     - X-to-Y 변환은 permutation 행렬 $\Pi_{ij}$로 나타낼 수 있다.
     - $\Pi_{ij}$는 단위행렬의 $i$번째와 $j$번째 행을 바꾼 것이다.
     - X-to-Y 변환은 permutation 행렬들의 곱이므로 Jacobian은 $\pm1$이다.
+    - X가 random sample이므로 X의 jpdf는 $f(x_1)f(x_2)...f(x_n)$
     - 따라서 $g(y_1,...,y_n)=n!\prod\limits_{i=1}^{n}f(y_i)$
   
