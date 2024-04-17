@@ -81,7 +81,7 @@
   - 복원 추출 sampling with replacement
   - 비복원 추출 sampling without replacement
 - 순서 통계량 order statistics
-  - 정의: $Y_1<Y_2 <\dots<Y_n, \quad Y_i=X_{(i)}$ 
+  - 정의: $Y_1\le Y_2 <\dots<Y_n, \quad Y_i=X_{(i)}$ 
   - 
   - joint pdf
   
